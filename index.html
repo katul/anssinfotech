@@ -19,6 +19,7 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" />
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -251,7 +252,62 @@
       </div>
     </section><!-- End Services Section -->
 	
-
+	 <section id="portfolio" class="portfolio">
+		<div class="container">
+			<div class="section-title">
+				<span>Gallery</span>
+				<h2>Gallery</h2>
+			</div>
+			<div class="row no-gutters gallerys">
+				<div class="col-lg-4 col-md-4 col-sm-6 col-12 py-2 px-2">
+					<a href="assets/img/portfolio/ANSS-STUDIO-IMAGE1.jpg" target="_blank">
+						<img src="assets/img/portfolio/ANSS-STUDIO-IMAGE1.jpg" class="img-fluid">
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-12 py-2 px-2">
+					<a href="assets/img/portfolio/ANSS-STUDIO-IMAGE2.jpg" target="_blank">
+						<img src="assets/img/portfolio/ANSS-STUDIO-IMAGE2.jpg" class="img-fluid">
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-12 py-2 px-2">
+					<a href="assets/img/portfolio/ANSS-STUDIO-IMAGE3.jpg" target="_blank">
+						<img src="assets/img/portfolio/ANSS-STUDIO-IMAGE3.jpg" class="img-fluid">
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-12 py-2 px-2">
+					<a href="assets/img/portfolio/ANSS-STUDIO-IMAGE4.jpg" target="_blank">
+						<img src="assets/img/portfolio/ANSS-STUDIO-IMAGE4.jpg" class="img-fluid">
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-12 py-2 px-2">
+					<a href="assets/img/portfolio/ANSS-STUDIO-IMAGE5.jpg" target="_blank">
+						<img src="assets/img/portfolio/ANSS-STUDIO-IMAGE5.jpg" class="img-fluid">
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-12 py-2 px-2">
+					<a href="assets/img/portfolio/ANSS-STUDIO-IMAGE6.jpg" target="_blank">
+						<img src="assets/img/portfolio/ANSS-STUDIO-IMAGE6.jpg" class="img-fluid">
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-12 py-2 px-2">
+					<a href="assets/img/portfolio/ANSS-STUDIO-IMAGE7.jpg" target="_blank">
+						<img src="assets/img/portfolio/ANSS-STUDIO-IMAGE7.jpg" class="img-fluid">
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-12 py-2 px-2">
+					<a href="assets/img/portfolio/ANSS-STUDIO-IMAGE8.jpg" target="_blank">
+						<img src="assets/img/portfolio/ANSS-STUDIO-IMAGE8.jpg" class="img-fluid">
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-12 py-2 px-2">
+					<a href="assets/img/portfolio/ANSS-STUDIO-IMAGE9.jpg" target="_blank">
+						<img src="assets/img/portfolio/ANSS-STUDIO-IMAGE9.jpg" class="img-fluid">
+					</a>
+				</div>
+			</div>
+		</div>
+	 
+	 </section>
     
 
     <!-- ======= Contact Section ======= -->
@@ -426,4 +482,16 @@
     </div>
   </div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous"></script>
+<script>
+$(document).ready(function(){
+	$('.gallerys').magnificPopup({
+		type: 'image',
+		delegate: 'a',
+		gallery:{
+			enabled:true
+		}
+	});
+});
+</script>
 </body></html>
